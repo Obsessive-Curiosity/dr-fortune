@@ -1,0 +1,60 @@
+{
+  "saju": {
+    "title": "{{name}}님의사주",
+    "birth": "{{year}}년 {{month}}월 {{day}}일 {{time}}"
+  },
+  "chapter": {
+    "number": "제 {{chapterNumber}}장",
+    "title": { "saju": "나의 사주 팔자" }
+  },
+
+  "bubble": {
+    "up": "이제 본격적으로<br/>{{name}}님의 사주팔자를<br/>분석해볼 차례네요.",
+    "down": "제가 {{name}}님의 사주를<br/>보기 쉽게 표로 정리했어요."
+  },
+  "toon": "슥슥",
+
+  "meta": {
+    "title": "사주박사 - 당신의 운세 길잡이",
+    "description": "사주, 타로, 운세를 통해 당신의 미래를 예측해보세요."
+  },
+
+  "yinYang": {
+    "plus": "양",
+    "minus": "음"
+  },
+  "element": {
+    "metal": "금",
+    "water": "수",
+    "wood": "목",
+    "fire": "화",
+    "earth": "토"
+  },
+
+  "cheongan": {
+    "jewel": "신",
+    "sea": "임",
+    "river": "계",
+    "tree": "갑",
+    "grass": "을",
+    "sun": "병",
+    "fire": "정",
+    "mountain": "무",
+    "earth": "기",
+    "stone": "경"
+  },
+  "jiJi": {
+    "mouse": "자",
+    "cow": "축",
+    "tiger": "인",
+    "rabbit": "묘",
+    "dragon": "진",
+    "snake": "사",
+    "horse": "오",
+    "sheep": "미",
+    "monkey": "신",
+    "chicken": "유",
+    "dog": "술",
+    "pig": "해"
+  }
+}
