@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -5,17 +6,111 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "OwnglyphColdywebtoonmaker";
+  src: url("/font/OwnglyphColdywebtoonmaker.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seokbongB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongHanseokbong-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seokbongR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongHanseokbong-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GyeonggiBatangR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-bubble-700: "seokbongB", sans-serif;
+  --font-bubble-400: "seokbongR", sans-serif;
+  --font-hanja: "Zen Antique", sans-serif;
+  --font-hangle: "GyeonggiBatangR", serif;
+  --font-webtoon: "OwnglyphColdywebtoonmaker", sans-serif;
+
+  /* saju-table 연한 색상 */
+  --color-gunsmoke-50: #f6f6f6;
+  --color-gunsmoke-100: #e7e7e7;
+  --color-gunsmoke-200: #d1d1d1;
+  --color-gunsmoke-300: #b0b0b0;
+  --color-gunsmoke-400: #8a8a8a;
+  --color-gunsmoke-500: #6d6d6d;
+  --color-gunsmoke-600: #5d5d5d;
+  --color-gunsmoke-700: #4f4f4f;
+  --color-gunsmoke-800: #454545;
+  --color-gunsmoke-900: #3d3d3d;
+  --color-gunsmoke-950: #262626;
+}
+
+@layer utilities {
+  .border-r-light {
+    border-right-width: 1px;
+    border-right-color: #8a8a8a; /* 예: gunsmoke 400 */
+  }
+  .border-r-border {
+    border-right-width: 2px;
+    border-right-color: black; /* 예: gunsmoke 400 */
+  }
+
+  .border-b-light {
+    border-bottom-width: 1px;
+    border-bottom-color: #8a8a8a; /* 예: gunsmoke 400 */
+  }
+  .border-b-border {
+    border-bottom-width: 2px;
+    border-bottom-color: black; /* 예: gunsmoke 400 */
+  }
+
+  .bg-saju-gradient-red {
+    background-image: linear-gradient(
+      to right,
+      #f78ca0 0%,
+      #f9748f 19%,
+      #fd868c 60%,
+      #fe9a8b 100%
+    );
+    color: white;
+  }
+  .bg-saju-gradient-green {
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+    color: white;
+  }
+  .bg-saju-gradient-white {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    color: black;
+  }
+  .bg-saju-gradient-yellow {
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    color: white;
+  }
+  .bg-saju-gradient-black {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: white;
+    --foreground: #000000;
   }
 }
 

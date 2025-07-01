@@ -1,0 +1,66 @@
+{
+  "saju": {
+    "title": "{{name}}'s Saju",
+    "birth": "{{year}}-{{month}}-{{day}} {{time}}",
+    "columns": {
+      "year": "Year",
+      "month": "Month",
+      "day": "Day",
+      "time": "Time"
+    }
+  },
+  "chapter": {
+    "number": "Chapter {{chapterNumber}}",
+    "title": { "saju": "My Four Pillars of Destiny" }
+  },
+
+  "bubble": {
+    "up": "Now, let's analyze<br/> {{name}}'s fortune in detail.",
+    "down": "I've organized<br/>{{name}}'s fortune into<br/> an easy-to-read table."
+  },
+  "toon": "scribble",
+
+  "meta": {
+    "title": "Dr. Fortune - Your Fortune Guide",
+    "description": "Predict your future with Saju, Tarot, and fortune telling."
+  },
+
+  "yinYang": {
+    "plus": "Yang",
+    "minus": "Yin"
+  },
+  "element": {
+    "wood": "Wood",
+    "fire": "Fire",
+    "earth": "Earth",
+    "metal": "Metal",
+    "water": "Water"
+  },
+
+  "cheongan": {
+    "tree": "Tree",
+    "grass": "Grass",
+    "sun": "Sun",
+    "fire": "Fire",
+    "mountain": "Mountain",
+    "earth": "Earth",
+    "stone": "Stone",
+    "jewel": "Jewel",
+    "sea": "Sea",
+    "river": "River"
+  },
+  "jiJi": {
+    "mouse": "Mouse",
+    "cow": "Cow",
+    "tiger": "Tiger",
+    "rabbit": "Rabbit",
+    "dragon": "Dragon",
+    "snake": "Snake",
+    "horse": "Horse",
+    "sheep": "Sheep",
+    "monkey": "Monkey",
+    "chicken": "Chicken",
+    "dog": "Dog",
+    "pig": "Pig"
+  }
+}
